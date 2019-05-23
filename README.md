@@ -24,15 +24,13 @@
 
 ##### 1、关于微星B360M迫击炮的BIOS
 
-经测试：
+请在开始本教程前，在[微星官网](https://cn.msi.com/Motherboard/support/B360M-MORTAR)下载或者本教程附件中微星B360M迫击炮**2018年5月24号**（7B23v12.zip）或**2018年8月2号**（7B23v13.zip）的BIOS，刷入BIOS
 
-请在开始本教程前，使用[微星官网](https://cn.msi.com/Motherboard/support/B360M-MORTAR)下载微星B360M迫击炮**2018年5月24号**（7B23v12.zip）或**2018年8月2号**（7B23v13.zip）的BIOS或者本教程附件中的BIOS
-
-刷入方法：将BIOS解压到U盘(FAT32格式)，使用M-FLASH刷入
+刷入方法：将BIOS解压到U盘(FAT32格式)，插入USB2.0端口，在BIOS界面使用M-FLASH刷入
 
 将你的BIOS降级到这两个版本后，再进行本教程的操作
 
-##### 2、使用最新版本的BIOS的朋友请在MAC的环境下，
+##### 2、如果想用最新版本BIOS的朋友请在MAC的环境下，
 
 用clover configurator添加RTC补丁
 
@@ -97,21 +95,29 @@ EFI支持：**10.14-10.14.5**  clover4928
 
 ### 四、USB端口定制设置
 
-![]()
+![](https://github.com/Lubibest/MSI-B360M-MORTAR/blob/master/JPG/product_4_20180402151409_5ac1d841de84c.png)
 
 ##### 1、使用**Hackintool**对端口进行定制：
 
-![]()
+用USB3.0的U盘对所有的主机上的USB口拔插一遍
+
+![](https://github.com/Lubibest/MSI-B360M-MORTAR/blob/master/JPG/USB-Hackintosh.jpg)
+
+可用端口为：
+
+`HS(01/02/03/04/09/14)`
+
+`SS(01/05/06)`
+
+`USR1/2`
 
 ##### 2、导出，桌面会生成4个文件
 
-![]()
+![](https://github.com/Lubibest/MSI-B360M-MORTAR/blob/master/JPG/1.jpg)
 
 ##### 3、将**USBPorts.kext**复制到EFI/CLOVER/KEXT/OTHER目录下
 
 ##### 4、将**USBInjectAll_v0.7.1.kext**删除
-
-![]()
 
 ##### 5、完成定制
 
