@@ -22,7 +22,7 @@
 
 ### 关于**迫击炮的BIOS**！！！
 
-##### 1、关于微星B360M迫击炮的BIOS
+#### 1、关于微星B360M迫击炮的BIOS
 
 请在开始本教程前，在[微星官网](https://cn.msi.com/Motherboard/support/B360M-MORTAR)下载或者本教程附件中微星B360M迫击炮**2018年5月24号**（7B23v12.zip）或**2018年8月2号**（7B23v13.zip）的BIOS，刷入BIOS
 
@@ -30,7 +30,7 @@
 
 将你的BIOS降级到这两个版本后，再进行本教程的操作
 
-##### 2、如果想用最新版本BIOS的朋友请在MAC的环境下，
+#### 2、如果想用最新版本BIOS的朋友请在MAC的环境下，
 
 用clover configurator添加RTC补丁
 
@@ -60,9 +60,9 @@ EFI支持：**10.14-10.14.5**  clover4928
 
 ### 二、指南
 
-##### 1、使用**EFI-FOR-NSTALL.ZIP**文件包中的**EFI文件**进行安装
+#### 1、使用**EFI-FOR-NSTALL.ZIP**文件包中的**EFI文件**进行安装
 
-##### 2、安装完成后，根据显卡的类别进行选择完善的EFI
+#### 2、安装完成后，根据显卡的类别进行选择完善的EFI
 
 ---AMD显卡的使用**EFI-FOR-AFTER-INSTALL-AMD.ZIP**文件包中的**EFI文件**替换硬盘的**EFI分区**中的文件
 
@@ -70,11 +70,11 @@ EFI支持：**10.14-10.14.5**  clover4928
 
 ---Nvdia显卡的使用**EFI-FOR-AFTER-INSTALL-Nvdia.ZIP**文件包中的**EFI文件**替换硬盘的**EFI分区**中的文件
 
-##### 3、然后进入系统
+#### 3、然后进入系统
 
 ### 三、说明
 
-##### 1、BIOS设置
+#### 1、BIOS设置
 
 进入BIOS首先重置一下BIOS设置
 
@@ -86,7 +86,7 @@ EFI支持：**10.14-10.14.5**  clover4928
 
 `CSM -> disable`
 
-##### 2、已添加隐藏启动项：
+#### 2、已添加隐藏启动项：
 
 显示启动项：四叶草界面按F3显示隐藏
 
@@ -95,9 +95,7 @@ EFI支持：**10.14-10.14.5**  clover4928
 
 ### 四、USB端口定制设置
 
-![](https://github.com/Lubibest/MSI-B360M-MORTAR/blob/master/JPG/product_4_20180402151409_5ac1d841de84c.png)
-
-##### 1、使用**Hackintool**对端口进行定制：
+#### 1、使用**Hackintool**对端口进行定制：
 
 用USB3.0的U盘对所有的主机上的USB口拔插一遍
 
@@ -111,15 +109,15 @@ EFI支持：**10.14-10.14.5**  clover4928
 
 `USR1/2`
 
-##### 2、导出，桌面会生成4个文件
+#### 2、导出，桌面会生成4个文件
 
 ![](https://github.com/Lubibest/MSI-B360M-MORTAR/blob/master/JPG/1.jpg)
 
-##### 3、将**USBPorts.kext**复制到EFI/CLOVER/KEXT/OTHER目录下
+#### 3、将**USBPorts.kext**复制到EFI/CLOVER/KEXT/OTHER目录下
 
-##### 4、将**USBInjectAll_v0.7.1.kext**删除
+#### 4、将**USBInjectAll_v0.7.1.kext**删除
 
-##### 5、完成定制
+#### 5、完成定制
 
 **注意事项**：更换机型之后，补丁将会失效
 
