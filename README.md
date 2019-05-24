@@ -101,6 +101,8 @@ EFI支持：**10.14-10.14.5**  clover4928
 
 #### 2、导出，桌面会生成4个文件
 
+![](https://github.com/Lubibest/MSI-B360M-MORTAR/blob/master/JPG/1.jpg)
+
 #### 3、将**USBPorts.kext**复制到EFI/CLOVER/KEXT/OTHER目录下
 
 #### 4、将**USBInjectAll_v0.7.1.kext**删除
