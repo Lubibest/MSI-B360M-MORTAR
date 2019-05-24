@@ -99,19 +99,7 @@ EFI支持：**10.14-10.14.5**  clover4928
 
 用USB3.0的U盘对所有的主机上的USB口拔插一遍
 
-![](https://github.com/Lubibest/MSI-B360M-MORTAR/blob/master/JPG/USB-Hackintosh.jpg)
-
-可用端口为：
-
-`HS(01/02/03/04/09/14)`
-
-`SS(01/05/06)`
-
-`USR1/2`
-
 #### 2、导出，桌面会生成4个文件
-
-![](https://github.com/Lubibest/MSI-B360M-MORTAR/blob/master/JPG/1.jpg)
 
 #### 3、将**USBPorts.kext**复制到EFI/CLOVER/KEXT/OTHER目录下
 
@@ -136,6 +124,8 @@ EFI支持：**10.14-10.14.5**  clover4928
 作者：**Genius-lbesT**
 
 qq群：724096369
+
+![](https://github.com/Lubibest/Hackintosh/blob/master/JPG/QQ.png)
 
  **黑苹果Genius**   [打赏](https://github.com/Lubibest/About-Genius-lbesT)
 
