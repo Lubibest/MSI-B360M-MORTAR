@@ -137,7 +137,5 @@ EFI支持：**10.14-10.14.5**  clover4928
 
 qq群：724096369
 
-![](https://github.com/Lubibest/Hackintosh/blob/master/JPG/QQ.png)
-
  **黑苹果Genius**   [打赏](https://github.com/Lubibest/About-Genius-lbesT)
 
