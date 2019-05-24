@@ -14,8 +14,8 @@
 | 扩展插槽 | 2 个 PCIe 3.0 x16 插槽 (支持 x16/x4 模式) <br />2 个 PCIe 3.0 x1 插槽 |
 | 板载显卡 | 1 个 DVI-D 接口，支持最高分辨率 1920x1200@60Hz <br />1 个 DisplayPort 接口 1.2，支持最高分辨率 4096X2304@60Hz <br />1 个 HDMI™ 接口 1.4，支持最高分辨率 4096x2160@30Hz |
 | 存储     | 4 个 SATA 6Gb/s 接口 <br />2 个 M.2 插槽                     |
-| 音效     | Dual Realtek® ALC892 解码芯片                                |
-| 网络     | 1 x Intel I219-V Gigabit 网卡                                |
+| 音效     | Dual Realtek® ALC892 解码芯片<br />驱动方法：**lillu+alc  ->Audio inject id.2** |
+| 网络     | 1 x Intel I219-V Gigabit 网卡<br />放入**IntelMausiEthernet.kext** |
 | 其他     | 微星B360M迫击炮在B360系列中拥有不俗的扩展性，<br />唯一的缺陷就是USB串口仅有一个，内置蓝牙的串口没地方插<br />解决方法：<br />某宝搜索：USB串口一分二 |
 
 
